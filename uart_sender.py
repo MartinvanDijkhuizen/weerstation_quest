@@ -1,8 +1,8 @@
 import time
 import serial
 
-csv_file = "/home/weerstation/weerstation_quest/counter_data.csv"
-uart_port = "/dev/serial0"  # This is usually correct for Raspberry Pi
+csv_file = "/home/weerstation/weerstation_quest/wind_data.csv"
+uart_port = "/dev/serial0"  
 baud_rate = 9600
 
 # Set up UART
